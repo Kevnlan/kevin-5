@@ -79,3 +79,15 @@
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
+
+#bike{
+	width: 800px;
+	height: 500px;
+	object-fit: cover;
+}
+
+/* img {
+	width: fit-content;
+	height: fit-content;
+	object-fit: cover;
+  } */

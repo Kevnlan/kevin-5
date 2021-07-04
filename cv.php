@@ -37,9 +37,9 @@
     <section class="introduction">
         <div class="first container p-3 my-3  ">
             <div class="row">
-                <div class="col-sm-4">
+                <div class="dp col-sm-4">
                     <p><h5>Photo Maybe</h5></p>
-                    <img src="img/copy.jpg" style="width:100%; height:270px;" alt="Avatar">
+                    <img class="image" src="img/copy.JPG" style="width:100%;" alt="Avatar">
                 </div>
                 <div class="col-sm-4">
                     <p><h5>Social Media maybe</h5></p>

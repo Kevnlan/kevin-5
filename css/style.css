@@ -1,6 +1,6 @@
 body {
     /* background-image: url("../img/board.jpg"); */
-    background: rgba(0, 128, 0, 0.3) /* Green background with 30% opacity */
+    background-color: darkslategray;
   }
   #nav-bar{
 	position: sticky;
@@ -45,4 +45,54 @@ img.adidas {
 .test{
     width: 100%;
 }
+#heads{
+    padding: 15px;
+    margin: 5px;
+}
+.socials a{
+    color: rgb(252, 252, 252)!important;
+}
+.socials a:before{
+    color: red!important;
+}
+.socials a:after{
+    color: yellow!important;
+}
+.socials a:hover{
+    color: black!important;
+}
+.first{
+    margin: auto;
+    color: white;
+}
+.logos{
+    margin: 2%;
+    padding: 3px;
+}
+.company{
+    background-color: lightslategray;
+    margin: 15px 15px;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+}
+.title{
+    background-color: wheat;
+    margin: 15px 15px;
+    padding: 10px;
+    border-radius: 5px;
+    color: 
+    black;
+}
 
+.skills {
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+  }
+  
+  .html {width: 90%; background-color: #04AA6D;} /* Green */
+  .css {width: 80%; background-color: #2196F3;} /* Blue */
+  .js {width: 65%; background-color: #f44336;} /* Red */
+  .php {width: 60%; background-color: #808080;} /* Dark Grey */

@@ -1,6 +1,13 @@
-body {
-    /* background-image: url("../img/board.jpg"); */
+
+  body.cvpage{
     background-color: darkslategray;
+    /* background-image: url("../img/coffee.jpg"); */
+  }
+  body.homepage{
+    background-image: url("../img/board.jpg");
+    /* background-color: #007bff; */
+    /* background-color: darkslategray; */
+
   }
   #nav-bar{
 	position: sticky;
@@ -90,9 +97,27 @@ img.adidas {
     padding-top: 10px; /* Add top padding */
     padding-bottom: 10px; /* Add bottom padding */
     color: white; /* White text color */
+    border-radius: 5px;
   }
-  
+  .skill{
+      background-color: aliceblue;
+      margin: 15px 15px;
+      padding: 10px;
+      border-radius: 5px;
+      color: black;
+  }
+  .education{
+    background-color:thistle;
+    margin: 15px 15px;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+  }
   .html {width: 90%; background-color: #04AA6D;} /* Green */
   .css {width: 80%; background-color: #2196F3;} /* Blue */
   .js {width: 65%; background-color: #f44336;} /* Red */
   .php {width: 60%; background-color: #808080;} /* Dark Grey */
+
+  .container {
+      border-radius: 5px;
+  }

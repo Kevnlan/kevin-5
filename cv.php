@@ -1,17 +1,19 @@
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon/favicon-16x16.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>Curriculum-Vitae</title>
 </head>
-<body>
+
+<body class="cvpage">
     <section id="nav-bar">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#"><img src="img/logo.jpg"></a>
@@ -21,9 +23,9 @@
 
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link" href="index.php">HOME</a>
-                    </li>						
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="cv.php">CV</a>
                     </li>
@@ -38,26 +40,32 @@
         <div class="first container p-3 my-3  ">
             <div class="row">
                 <div class="dp col-sm-4">
-                    <p><h5>Photo Maybe</h5></p>
+                    <p>
+                    <h5>Photo Maybe</h5>
+                    </p>
                     <img class="image" src="img/copy.JPG" style="width:100%;" alt="Avatar">
                 </div>
                 <div class="col-sm-4">
-                    <p><h5>Social Media maybe</h5></p>
+                    <p>
+                    <h5>Social Media maybe</h5>
+                    </p>
 
                     <div class="socials container">
                         <a class="links" href="https://github.com/Kevnlan" target="_blank"><i class="fab fa-github-square fa-7x"></i></a>
                         <a class="links" href="https://www.linkedin.com/in/kevin-langat-43009191/" target="_blank"><i class="fab fa-linkedin fa-7x"></i></a>
                         <a class="links" href="" target="_blank"><i class="fab fa-twitter-square fa-7x"></i></a>
                     </div>
-                    
+
                 </div>
                 <div class="col-sm-4">
-                    <p><h5>carousel links maybe</h5></p>
+                    <p>
+                    <h5>carousel links maybe</h5>
+                    </p>
 
-                    <p><i class="fa fa-briefcase fa-fw margin-right large text-black"></i>Software Developer                        </p>
-                        <p><i class="fa fa-home fa-fw margin-right large text-black"></i>Nairobi, Kenya</p>
-                        <p><i class="fa fa-envelope fa-fw margin-right large text-black"></i>langatkevin123@gmail.com                        </p>
-                        <p><i class="fa fa-phone fa-fw margin-right large text-black"></i>254773546601</p>
+                    <p><i class="fa fa-briefcase fa-fw margin-right large text-black"></i>Software Developer </p>
+                    <p><i class="fa fa-home fa-fw margin-right large text-black"></i>Nairobi, Kenya</p>
+                    <p><i class="fa fa-envelope fa-fw margin-right large text-black"></i>langatkevin123@gmail.com </p>
+                    <p><i class="fa fa-phone fa-fw margin-right large text-black"></i>254773546601</p>
                 </div>
             </div>
             <div class="headline">
@@ -69,11 +77,13 @@
         <div class="container-fluid p-3 my-3  ">
             <div class="row">
                 <div class="know col-sm-6">
-                    
-                   
+
+
                     <div class="content">
-                    <div class="skill">
-                            <p><h3>Skills</h3></p>
+                        <div class="skill">
+                            <p>
+                            <h3>Skills</h3>
+                            </p>
                             <div class="content">
                                 <div class="combined">
                                     <p>Mobile Development</p>
@@ -84,27 +94,29 @@
                                     <div class="container">
                                         <div class="skills css">90%</div>
                                     </div>
-                                    
+
                                     <p>UI/UX</p>
                                     <div class="container">
                                         <div class="skills js">90%</div>
                                     </div>
-                                    
+
                                     <p>DevOps</p>
                                     <div class="container">
                                         <div class="skills php">90%</div>
                                     </div>
-                                    
+
                                     <p>CCNA</p>
                                     <div class="container">
                                         <div class="skills php">90%</div>
                                     </div>
-                                    
+
                                 </div>
                             </div>
                         </div>
                         <div class="education">
-                            <p><h3>Education</h3></p>
+                            <p>
+                            <h3>Education</h3>
+                            </p>
                             <div class="schools">
                                 Maseno University 2016 - 2020 <br>
                                 <ul>
@@ -131,7 +143,9 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="title">
-                        <p><h3>Experience</h3></p>
+                        <p>
+                        <h3>Experience</h3>
+                        </p>
                     </div>
                     <div class="content">
                         <div class="company">
@@ -177,8 +191,8 @@
                         </div>
                         <div class="company">
                             Sales Assistant<br>
-                                Ches Dairies<br>
-                                August 2012 – December 2012<br>
+                            Ches Dairies<br>
+                            August 2012 – December 2012<br>
                             <ul>
                                 <li>Packaging of dairy products</li>
                                 <li>Sales</li>
@@ -190,4 +204,5 @@
         </div>
     </section>
 </body>
+
 </html>
